@@ -18,7 +18,7 @@ namespace uni_tech_test.Model
 
         public DataBaseContext()
         {
-            Database.EnsureCreated();
+            //Database.EnsureCreated();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
